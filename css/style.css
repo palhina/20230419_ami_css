@@ -25,39 +25,31 @@
 }
 
 .main {
-    position: relative;
-    width: 100%;
-    padding-top: 50%;
+    width: 100vw;
+    height: 50vw;
+}
+
+div {
+    width: 50vw;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 15%;
 }
 
 .main__img {
-    position: absolute;
-    left: auto;
-    right: 0;
-    top: 12%;
-    bottom: auto;
-    height: auto;
-    width: 50%;
-    z-index: 1;
+    width: 100%;
 }
 
 .main__text {
-    position: absolute;
-    top: auto;
-    bottom: 35%;
-    left: 0;
-    right: auto;
+    margin-top: -15%;
     font-weight: normal;
     font-size: 5rem;
 }
 
 .main__blue-box {
-    position: absolute;
     background-color: #00277E;
-    left: 0;
-    right: auto;
-    top: 66%;
-    bottom: auto;
-    width: 74%;
-    height: 29%;
+    margin-left: 0;
+    margin-top: 0%;
+    width: 75%;
+    height: 30%;
 }
